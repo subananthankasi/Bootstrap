@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container p-3">
+        <div>
+            <h1 class="text-center text-dark mb-5">STUDENT'S INFORMATION </h1>
+        </div>
+        <div class="row">
+            <div class=" col-lg" style="border-radius: 15px;">
+                <div class="card mt-3">
+                    <div class="card-header  p-1" >
+                        <h4 class="= text-center  p-2 mt-1"><strong>Basic
+                            Information</strong> </h4>
+                    </div>
+                    <div class="card-body">
+                            <form action="/action_page.php" class="p-3">
+                                    <div class="mb-3 ">
+                                       <label for="email"><strong>User Name:</strong> </label>
+                                       <input type="email" class="form-control" id="username" placeholder="Your Name" name="username">
+                                    </div>
+                                    <div class="mb-3 mt-3">
+                                        <label for="email"><strong> Email:</strong></label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+                                    </div>
+                                    <div class=""><strong>Gender:</strong> </div>
+                                    <div class="check-box d-flex">
+                                        <div class="check-box me-2">
+                                            <input class="form-check-input" id="male" name="gender" type="radio" value="male">
+                                            <label for="form-check-label">Male</label>
+                                        </div>
+                                        <div class="check-box me-2">
+                                            <input class="form-check-input" type="radio" id="female" name="gender" value="female">
+                                            <label for="form-check-label">Female</label>
+                                        </div>
+                                        <div class="check-box">
+                                            <input class="form-check-input" type="radio" id="others" name="gender" value="others">
+                                            <label for="form-check-label">Others</label>
+                                    </div>
+                                    </div>
+                                    <div class=" form-number mb-3 mt-2">
+                                               <label for="form-label"> <strong> Phone Number:</strong> </label>
+                                               <input class="form-control mt-2" type="number" name="Number" id="phone number"
+                                                placeholder="Phone Number">
+                                    </div>
+                                    <div class=" mb-3 mt-3">
+                                               <label for="form-label"> <strong> Date of Birth:</strong> </label>
+                                               <input class="form-control mt-2" type="date" name="Date of birth" id="Date of birth">
+                                    </div>
+                                    <div class="mt-3 mb-3">
+                                                 <label for="form-label"> <strong> Nationality:</strong> </label>
+                                                <select class="form-select mt-2" id="Nationality" name="nationality">
+                                                    <option>Choose</option>
+                                                    <option>Indian</option>
+                                                    <option>American</option>
+                                                    <option>Singaporean</option>
+                                                   <option>Malaysian</option>
+                                                </select>
+                                    </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="card mt-3">
+                    <div class="card-header = p-1">
+                        <h4 class="= text-center  p-2 mt-1"><strong>Acadamic</strong> </h4>
+                    </div>
+                    <div class="card-body">
+                            <form action="/action_page.php" class="p-3">
+                                <div class="">
+                                        <label for="form-label"> <strong> Degree:</strong> </label>
+                                        <select class="form-select" id="Nationality" name="nationality">
+                                               <option>Chosse</option>
+                                               <option>B.E</option>
+                                               <option>B.Tech</option>
+                                               <option>M.E</option>
+                                                <option>M.Tech</option>
+                                        </select>
+                                </div>
+                                <div class="mt-3">
+                                        <label for="form-label"> <strong> Branch:</strong> </label>
+                                        <select class="form-select mt-2" id="Nationality" name="nationality">
+                                                  <option>Chosse</option>
+                                                   <option>Mechanical</option>
+                                                   <option>Civil</option>
+                                                   <option>CSE</option>
+                                                   <option>ECE</option>
+                                                   <option>EEE</option>
+                                        </select>
+                                </div>
+                                <div class="mt-3">
+                                        <label for="form-label"> <strong> Year:</strong> </label>
+                                        <select class="form-select mt-2" id="Nationality" name="nationality">
+                                                 <option>Choose</option>
+                                                 <option>2020</option>
+                                                 <option>2021</option>
+                                                  <option>2022</option>
+                                                  <option>2023</option>
+                                        </select>
+                                </div>
+                                <div class="mt-3">
+                                        <label for="form-label"> <strong> Semester:</strong> </label>
+                                        <select class="form-select mt-2" id="Nationality" name="nationality">
+                                                 <option>Choose</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                   <option>3</option>
+                                                   <option>4</option>
+                                                  <option>5</option>
+                                                  <option>6</option>
+                                                <option>7</option>
+                                                       <option>8</option>
+                                        </select>
+                                </div>
+                                <div class="mt-3">
+                                        <label for="form-label"> <strong> Admission:</strong> </label>
+                                        <select class="form-select mt-2" id="Nationality" name="nationality">
+                                                <option>Choose</option>
+                                                <option>counselling</option>
+                                                <option>Management</option>
+                                        </select>
+                                 </div> 
+                                <div class="mt-3 "><strong>Language:</strong> </div>
+                                <div class="check-box d-flex">
+                                    <div class="check-box me-2">
+                                        <input class="form-check-input" id="male" name="gender" type="checkbox" value="male">
+                                        <label for="form-check-label">Tamil</label>
+                                    </div>
+                                    <div class="check-box me-2">
+                                        <input class="form-check-input" type="checkbox" id="female" name="gender" value="female">
+                                        <label for="form-check-label">English</label>
+                                    </div>
+                                    <div class="check-box ">
+                                        <input class="form-check-input" type="checkbox" id="others" name="gender" value="others">
+                                        <label for="form-check-label">Hindi</label>
+                                </div>
+                                </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+          
+            <div class=" col-lg">
+                <div class="card mt-3">
+                      <div class=" card-header  text-center  p-1">
+                      <h4 class="p-2 mt-1"><strong>Parent's Information</strong> </h4>
+                     </div>
+                <div class="card-body">
+                            <form action="/action_page.php "  class="p-3">
+                                   <div class="">
+                                       <label for="email"><strong>Father's Name:</strong> </label>
+                                        <input type="text" class="form-control" id="username" placeholder="Father's Name" name="username">
+                                    </div>
+                                    <div class="mt-3">
+                                        <label for="email"><strong>Father's Occupation:</strong> </label>
+                                         <input type="text" class="form-control" id="username" placeholder="Father's Occupation" name="username">
+                                    </div>
+                                    <div class="mt-3 mb-3" >
+                                         <label for="email"><strong>Father's Income:</strong> </label>
+                                         <input type="number" class="form-control" id="username" placeholder="Father's Income" name="username">
+                                    </div>
+                                    <div class="mt-3 mb-3" >
+                                         <label for="email"><strong>Mother's Name:</strong> </label>
+                                         <input type="text" class="form-control" id="username" placeholder="Mother's Name" name="username">
+                                    </div>
+                                    <div class=" form-number mt-3 mb-3">
+                                          <label for="form-label"> <strong> Phone Number:</strong> </label>
+                                          <input class="form-control mt-2" type="number" name="Number" id="phone number"
+                                            placeholder="Phone Number">
+                                    </div>
+                                    <div class=" form-number mt-3 ">
+                                         <label for="form-label"> <strong> Pin Number:</strong> </label>
+                                         <input class="form-control mt-2" type="number" name="Number" id="Pin Number"
+                                          placeholder="Pin Number">
+                                    </div>
+                            </form>
+                </div>
+            </div>
+    </div>
+        </div>
+        <div>
+            <input type="submit" class="btn btn-success float-end mt-3" value="Submit">
+        </div>
+        </div>
+</body>
+</html>

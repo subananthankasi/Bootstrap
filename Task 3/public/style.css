@@ -1,0 +1,11 @@
+@media(max-width:280px){
+.name p{
+    font-size: 15px;
+}
+.name2 p{
+    font-size: 14px;
+}
+.name3 p{
+    font-size: 14px;
+}
+}
